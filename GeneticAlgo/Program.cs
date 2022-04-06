@@ -24,15 +24,16 @@ int iterationTimes = 10000;
 
 int i = 0;
 GenerateGene g = new GenerateGene();
-while (i < iterationTimes)
+int newTmp;
+do
 {
     var newWO = g.WOSchudule(Wo);
     var newSchedule = g.MachineSchedule(schedule);
     int record = g.CaculateDelay(g.GenerateCompleteSchedule(Wo, schedule));
-    int newTmp = g.CaculateDelay(g.GenerateCompleteSchedule(newWO, newSchedule));
+    newTmp = g.CaculateDelay(g.GenerateCompleteSchedule(newWO, newSchedule));
     if (record > newTmp)
     {
-        Console.WriteLine(newTmp + " is better than " + record +" at "+ i + "round");
+        Console.WriteLine(newTmp + " is better than " + record + " at " + i + "round");
 
         foreach (List<string> w in g.GenerateCompleteSchedule(newWO, newSchedule))
         {
@@ -51,7 +52,7 @@ while (i < iterationTimes)
 
 
     i++;
-}
+}while (i < iterationTimes || newTmp <= 0);
 
 Console.WriteLine("---end scheduling---");
 
