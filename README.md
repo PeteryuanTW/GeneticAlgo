@@ -6,7 +6,7 @@ Genetic algorithms are commonly used to generate high-quality solutions to optim
 # Alog flow (Not Unique)  
 ![image](https://user-images.githubusercontent.com/47847697/162694557-8b03e556-1fac-46e3-ac62-7ca31b00aeee.png)  
 **Key Steps**  
-Encoding, Calculating, Terminal Condition ,Crossover and Mutation.   
+Encoding, Calculating, Terminal Condition, Crossover and Mutation.   
 # Implement Circumstances
 **ASSUME...**
 1. There are three kinds of machine correspondung with three processes and there are two for each type.
