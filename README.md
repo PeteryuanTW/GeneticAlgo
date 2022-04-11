@@ -11,4 +11,5 @@ Encoding, Calculating, Terminal Condition ,Crossover and Mutation.
 **ASSUME...**
 1. There are three kinds of machine correspondung with three processes and there are two for each type.
 2. There are five work orders with related information including cycle time in each process and expected due time.
-3. Each machine can work parallelly but each process in one work order must finish in sequence. 
+3. Each machine can work parallelly but each process in one work order must finish in sequence.
+4. Evaluate formula is calculating the total due time of all work orders and the optimized solution has the minimum value.  
