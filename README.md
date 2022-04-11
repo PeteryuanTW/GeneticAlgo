@@ -1,5 +1,7 @@
 # GeneticAlgo
 Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on biologically inspired operators such as mutation, crossover and selection.
+# Reference
+[introduction](https://jialin128.pixnet.net/blog/post/28315398-%5B%E6%BC%94%E7%AE%97%E6%B3%95%5D-%E5%9F%BA%E5%9B%A0%E6%BC%94%E7%AE%97%E6%B3%95%28genetic-algorithm%29)
 # Implement Circumstances
 ASSUME...
 1. There are three kinds of machine correspondung with three processes and there are two for each type.
